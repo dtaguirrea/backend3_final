@@ -1,0 +1,109 @@
+components:
+  schemas:
+    # Esquema para la creación de un usuario (UserRequest)
+    UserRequest:
+      type: object
+      required:
+        - name
+        - email
+        - password
+      properties:
+        name:
+          type: string
+          description: Nombre completo del usuario
+        email:
+          type: string
+          description: Correo electrónico del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+        role:
+          type: string
+          description: "Rol del usuario (opcional: puede ser user o admin)"
+      example:
+        name: "Juan Pérez"
+        email: "juan.perez@example.com"
+        password: "mypassword123"
+        role: "user"
+
+    # Esquema para la actualización de un usuario (UserUpdateRequest)
+    UserUpdateRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre completo del usuario (opcional)
+        email:
+          type: string
+          description: Correo electrónico del usuario (opcional)
+        password:
+          type: string
+          description: Contraseña del usuario (opcional)
+        role:
+          type: string
+          description: "Rol del usuario (opcional: puede ser user o admin)"
+      example:
+        name: "Carlos Rodríguez"
+        email: "carlos.rodriguez@example.com"
+        role: "admin"
+
+    PetRequest:
+      type: object
+      required:
+        - name
+        - type
+      properties:
+        name:
+          type: string
+          description: Nombre de la mascota
+        type:
+          type: string
+          description: Tipo de mascota (perro, gato, etc.)
+      example:
+        name: "Bobby"
+        type: "dog"
+
+    PetUpdateRequest:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Nombre de la mascota (opcional)
+        type:
+          type: string
+          description: Tipo de mascota (opcional)
+      example:
+        name: "Max"
+        type: "cat"
+
+    AdoptionRequest:
+      type: object
+      required:
+        - userId
+        - petId
+      properties:
+        userId:
+          type: string
+          description: ID del usuario que adopta la mascota
+        petId:
+          type: string
+          description: ID de la mascota que se está adoptando
+      example:
+        userId: "60d21b467db8b80015b8eaaa"
+        petId: "60d21b467db8b80015b8f333"
+
+    MockDataRequest:
+      type: object
+      required:
+        - users
+        - pets
+      properties:
+        users:
+          type: integer
+          description: Cantidad de usuarios mock a generar
+        pets:
+          type: integer
+          description: Cantidad de mascotas mock a generar
+      example:
+        users: 10
+        pets: 15

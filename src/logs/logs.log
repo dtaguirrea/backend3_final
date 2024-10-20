@@ -1,0 +1,53 @@
+[2024-10-19T21:18:08.318] [ERROR] default - MONGO_URI is not defined in the configuration
+[2024-10-19T21:18:08.324] [INFO] default - Server running on port: 8080
+[2024-10-19T21:18:08.324] [ERROR] default - Database connection error: Error: MONGO_URI is undefined. Please check your environment variables or config file.
+    at C:\Users\maind\OneDrive\Escritorio\backend 3 v2\src\config\db.connection.ts:10:15
+    at Generator.next (<anonymous>)
+    at C:\Users\maind\OneDrive\Escritorio\backend 3 v2\src\config\db.connection.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\maind\OneDrive\Escritorio\backend 3 v2\src\config\db.connection.ts:4:12)
+    at dbConnection (C:\Users\maind\OneDrive\Escritorio\backend 3 v2\src\config\db.connection.ts:5:40)
+    at Object.<anonymous> (C:\Users\maind\OneDrive\Escritorio\backend 3 v2\src\server.ts:15:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (C:\Users\maind\OneDrive\Escritorio\backend 3 v2\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+[2024-10-19T21:19:38.353] [INFO] default - Server running on port: 8080
+[2024-10-19T21:19:39.482] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T21:19:39.483] [INFO] default - Connected to MongoDB
+[2024-10-19T22:31:44.069] [INFO] default - Server running on port: 8080
+[2024-10-19T22:31:45.318] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T22:31:45.319] [INFO] default - Connected to MongoDB
+[2024-10-19T22:38:20.558] [INFO] default - Server running on port: 8080
+[2024-10-19T22:38:21.674] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T22:38:21.674] [INFO] default - Connected to MongoDB
+[2024-10-19T22:38:43.624] [INFO] default - [0mDELETE /api/pets/67145dcb266b08b4c8d9f65a [32m200[0m 75.648 ms - 148[0m
+[2024-10-19T22:40:36.786] [INFO] default - [0mDELETE /api/pets/67145dcb266b08b4c8d9f65a [31m500[0m 71.909 ms - 65[0m
+[2024-10-19T22:40:53.992] [INFO] default - Server running on port: 8080
+[2024-10-19T22:40:55.140] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T22:40:55.141] [INFO] default - Connected to MongoDB
+[2024-10-19T22:40:57.401] [INFO] default - [0mDELETE /api/pets/67145dcb266b08b4c8d9f65a [31m500[0m 87.267 ms - 65[0m
+[2024-10-19T22:41:22.708] [INFO] default - Server running on port: 8080
+[2024-10-19T22:41:23.572] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T22:41:23.573] [INFO] default - Connected to MongoDB
+[2024-10-19T23:18:05.200] [INFO] default - Server running on port: 8080
+[2024-10-19T23:18:07.493] [INFO] default - Connected to MongoDB successfully
+[2024-10-19T23:18:07.494] [INFO] default - Connected to MongoDB
+[2024-10-19T23:18:37.325] [INFO] default - [0mGET /api/mocks/mockingadoptions [31m500[0m 335.733 ms - 382[0m
+[2024-10-19T23:21:41.554] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 1386.224 ms - 10362[0m
+[2024-10-19T23:21:48.518] [INFO] default - [0mGET /api/mocks/mockingadoptions [31m500[0m 732.604 ms - 382[0m
+[2024-10-19T23:25:39.284] [INFO] default - [0mGET /api/mocks/mockingadoptions [31m500[0m 3080.802 ms - 382[0m
+[2024-10-19T23:28:41.841] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 1300.245 ms - 10360[0m
+[2024-10-19T23:31:31.050] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 1485.455 ms - 10457[0m
+[2024-10-19T23:31:34.545] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 625.715 ms - 10364[0m
+[2024-10-19T23:31:36.432] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 616.769 ms - 10398[0m
+[2024-10-19T23:31:42.308] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 499.523 ms - 4021[0m
+[2024-10-19T23:31:44.764] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 489.543 ms - 4076[0m
+[2024-10-19T23:31:48.737] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-19T23:31:48.747] [INFO] default - [0mGET /api/mocks/mockingadoption [31m500[0m 9.414 ms - 1447[0m
+[2024-10-19T23:32:03.882] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 11058.570 ms - 7655[0m
+[2024-10-20T00:41:45.329] [INFO] default - Server running on port: 8080
+[2024-10-20T00:41:46.425] [INFO] default - Connected to MongoDB successfully
+[2024-10-20T00:41:46.426] [INFO] default - Connected to MongoDB
+[2024-10-20T00:45:32.611] [INFO] default - Server running on port: 8080
+[2024-10-20T00:45:33.786] [INFO] default - Connected to MongoDB successfully
+[2024-10-20T00:45:33.787] [INFO] default - Connected to MongoDB

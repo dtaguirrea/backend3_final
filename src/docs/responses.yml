@@ -1,0 +1,141 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID del usuario
+        name:
+          type: string
+          description: Nombre del usuario
+        email:
+          type: string
+          description: Email del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+        role:
+          type: string
+          description: Rol del usuario (user/admin)
+        adoptedPets:
+          type: array
+          items:
+            type: string
+          description: Lista de IDs de las mascotas adoptadas por el usuario
+      example:
+        _id: "60d21b467db8b80015b8eaaa"
+        name: "Juan Pérez"
+        email: "juan.perez@example.com"
+        password: "hashedpassword123"
+        role: "user"
+        adoptedPets: ["60d21b467db8b80015b8f111", "60d21b467db8b80015b8f222"]
+
+    Pet:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID de la mascota
+        name:
+          type: string
+          description: Nombre de la mascota
+        type:
+          type: string
+          description: Tipo de la mascota (perro, gato, etc.)
+        owner:
+          type: string
+          description: ID del dueño de la mascota, si ha sido adoptada
+      example:
+        _id: "60d21b467db8b80015b8f333"
+        name: "Bobby"
+        type: "dog"
+        owner: "60d21b467db8b80015b8eaaa"
+
+    Adoption:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID de la adopción
+        user:
+          type: string
+          description: ID del usuario que adopta
+        pet:
+          type: string
+          description: ID de la mascota adoptada
+        adoptionDate:
+          type: string
+          format: date-time
+          description: Fecha de la adopción
+      example:
+        _id: "60d21b467db8b80015b8f444"
+        user: "60d21b467db8b80015b8eaaa"
+        pet: "60d21b467db8b80015b8f333"
+        adoptionDate: "2023-10-19T12:45:00Z"
+
+    ErrorResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Mensaje de error
+        error:
+          type: string
+          description: Descripción del error o detalles adicionales
+      example:
+        message: "Error interno del servidor"
+        error: "Error al conectar con la base de datos"
+
+    UserRequest:
+      type: object
+      required:
+        - name
+        - email
+        - password
+      properties:
+        name:
+          type: string
+          description: Nombre del usuario
+        email:
+          type: string
+          description: Email del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+      example:
+        name: "Juan Pérez"
+        email: "juan.perez@example.com"
+        password: "mypassword123"
+
+    PetRequest:
+      type: object
+      required:
+        - name
+        - type
+      properties:
+        name:
+          type: string
+          description: Nombre de la mascota
+        type:
+          type: string
+          description: Tipo de la mascota (perro, gato, etc.)
+      example:
+        name: "Bobby"
+        type: "dog"
+
+    AdoptionRequest:
+      type: object
+      required:
+        - userId
+        - petId
+      properties:
+        userId:
+          type: string
+          description: ID del usuario que adopta
+        petId:
+          type: string
+          description: ID de la mascota a adoptar
+      example:
+        userId: "60d21b467db8b80015b8eaaa"
+        petId: "60d21b467db8b80015b8f333"

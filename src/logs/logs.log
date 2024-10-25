@@ -54,3 +54,157 @@
 [2024-10-20T00:57:35.013] [INFO] default - Server running on port: 8080
 [2024-10-20T00:57:36.096] [INFO] default - Connected to MongoDB successfully
 [2024-10-20T00:57:36.097] [INFO] default - Connected to MongoDB
+[2024-10-25T00:58:06.708] [INFO] default - Server running on port: 8080
+[2024-10-25T00:58:07.834] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T00:58:07.835] [INFO] default - Connected to MongoDB
+[2024-10-25T01:00:00.173] [INFO] default - [0mGET /api/users [32m200[0m 296.647 ms - 68223[0m
+[2024-10-25T01:02:47.574] [INFO] default - Server running on port: 8080
+[2024-10-25T01:02:47.619] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:02:47.619] [INFO] default - Connected to MongoDB
+[2024-10-25T01:11:54.567] [INFO] default - Server running on port: 8080
+[2024-10-25T01:11:54.587] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:11:54.588] [INFO] default - Connected to MongoDB
+[2024-10-25T01:12:01.007] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:12:01.011] [INFO] default - [0mGET /api/mockingusers [31m500[0m 2.997 ms - 1497[0m
+[2024-10-25T01:12:20.015] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:12:20.016] [INFO] default - [0mGET /api/mockingusers [31m500[0m 1.424 ms - 1497[0m
+[2024-10-25T01:14:08.652] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:14:08.654] [INFO] default - [0mGET /api/mockingusers [31m500[0m 1.064 ms - 1497[0m
+[2024-10-25T01:14:34.835] [INFO] default - Server running on port: 8080
+[2024-10-25T01:14:34.848] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:14:34.848] [INFO] default - Connected to MongoDB
+[2024-10-25T01:14:40.281] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 126.289 ms - 10442[0m
+[2024-10-25T01:14:40.323] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 28.788 ms - 4088[0m
+[2024-10-25T01:14:40.472] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 146.284 ms - 7655[0m
+[2024-10-25T01:14:40.506] [INFO] default - [0mPOST /api/users/create [31m500[0m 28.355 ms - 67[0m
+[2024-10-25T01:14:40.520] [INFO] default - [0mGET /api/users [32m200[0m 9.892 ms - 28485[0m
+[2024-10-25T01:14:40.527] [INFO] default - [0mGET /api/users/671b1b30b5998d066622accc [32m200[0m 3.710 ms - 214[0m
+[2024-10-25T01:14:40.531] [INFO] default - [0mPOST /api/pets/create [32m201[0m 0.856 ms - 51[0m
+[2024-10-25T01:14:40.539] [INFO] default - [0mGET /api/pets [32m200[0m 5.576 ms - 10488[0m
+[2024-10-25T01:14:40.548] [INFO] default - [0mPOST /api/users/create [31m500[0m 4.502 ms - 67[0m
+[2024-10-25T01:14:40.552] [INFO] default - [0mPOST /api/pets/create [32m201[0m 0.735 ms - 51[0m
+[2024-10-25T01:14:40.560] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 3.888 ms - 105[0m
+[2024-10-25T01:14:40.586] [INFO] default - [0mGET /api/adoptions [32m200[0m 24.024 ms - 23405[0m
+[2024-10-25T01:20:47.209] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 89.103 ms - 10375[0m
+[2024-10-25T01:20:47.251] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 26.191 ms - 4060[0m
+[2024-10-25T01:20:47.377] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 124.049 ms - 7655[0m
+[2024-10-25T01:20:47.389] [INFO] default - [0mPOST /api/users/create [31m500[0m 5.360 ms - 67[0m
+[2024-10-25T01:20:47.403] [INFO] default - [0mGET /api/users [32m200[0m 10.868 ms - 40130[0m
+[2024-10-25T01:20:47.410] [INFO] default - [0mGET /api/users/671b1c9fb5998d066622ae6a [32m200[0m 2.264 ms - 222[0m
+[2024-10-25T01:20:47.414] [INFO] default - [0mPOST /api/pets/create [32m201[0m 0.479 ms - 51[0m
+[2024-10-25T01:20:47.423] [INFO] default - [0mGET /api/pets [32m200[0m 6.915 ms - 15938[0m
+[2024-10-25T01:20:47.434] [INFO] default - [0mPOST /api/users/create [31m500[0m 5.168 ms - 67[0m
+[2024-10-25T01:20:47.438] [INFO] default - [0mPOST /api/pets/create [32m201[0m 0.641 ms - 51[0m
+[2024-10-25T01:20:47.446] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 4.317 ms - 105[0m
+[2024-10-25T01:20:47.467] [INFO] default - [0mGET /api/adoptions [32m200[0m 17.973 ms - 47444[0m
+[2024-10-25T01:22:01.979] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:22:01.982] [INFO] default - [0mGET /apis/users [31m500[0m 2.224 ms - 1497[0m
+[2024-10-25T01:22:09.493] [INFO] default - [0mGET /api/users [32m200[0m 16.645 ms - 40130[0m
+[2024-10-25T01:23:43.819] [INFO] default - Server running on port: 8080
+[2024-10-25T01:23:43.839] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:23:43.839] [INFO] default - Connected to MongoDB
+[2024-10-25T01:24:03.064] [INFO] default - [0mGET /api/users [31m500[0m 10.208 ms - 70[0m
+[2024-10-25T01:24:06.669] [INFO] default - [0mGET /api/users [31m500[0m 4.607 ms - 70[0m
+[2024-10-25T01:24:27.445] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:24:27.460] [INFO] default - [0mGET /mocks/mockingusers [31m500[0m 15.184 ms - 1497[0m
+[2024-10-25T01:24:45.799] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:24:45.800] [INFO] default - [0mGET /mocks/mockingpets [31m500[0m 1.181 ms - 1497[0m
+[2024-10-25T01:24:58.627] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 69.647 ms - 4118[0m
+[2024-10-25T01:25:02.194] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 110.047 ms - 10422[0m
+[2024-10-25T01:25:07.552] [INFO] default - [0mGET /api/users/ [32m200[0m 10.778 ms - 10386[0m
+[2024-10-25T01:27:24.037] [INFO] default - Server running on port: 8080
+[2024-10-25T01:27:24.057] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:27:24.057] [INFO] default - Connected to MongoDB
+[2024-10-25T01:27:29.458] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 119.927 ms - 10426[0m
+[2024-10-25T01:27:29.500] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 28.592 ms - 4077[0m
+[2024-10-25T01:27:29.627] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 124.391 ms - 7655[0m
+[2024-10-25T01:27:29.654] [INFO] default - [0mPOST /api/users/create [31m500[0m 20.766 ms - 67[0m
+[2024-10-25T01:27:29.662] [INFO] default - [0mGET /api/users [32m200[0m 5.005 ms - 11707[0m
+[2024-10-25T01:27:29.668] [INFO] default - [0mGET /api/users/671b1e317b05d9efcd970e64 [32m200[0m 2.693 ms - 209[0m
+[2024-10-25T01:27:29.673] [INFO] default - [0mPOST /api/pets/create [32m201[0m 1.246 ms - 51[0m
+[2024-10-25T01:27:29.682] [INFO] default - [0mGET /api/pets [32m200[0m 5.661 ms - 9620[0m
+[2024-10-25T01:27:29.692] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 5.467 ms - 105[0m
+[2024-10-25T01:27:29.715] [INFO] default - [0mGET /api/adoptions [32m200[0m 19.427 ms - 23635[0m
+[2024-10-25T01:30:14.510] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:30:14.513] [INFO] default - [0mGET /api/pest/ [31m500[0m 2.635 ms - 1497[0m
+[2024-10-25T01:30:16.477] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:30:16.479] [INFO] default - [0mGET /api/pests [31m500[0m 1.454 ms - 1497[0m
+[2024-10-25T01:30:18.001] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:30:18.002] [INFO] default - [0mGET /api/pest [31m500[0m 1.484 ms - 1497[0m
+[2024-10-25T01:30:19.306] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:30:19.308] [INFO] default - [0mGET /api/pe [31m500[0m 1.690 ms - 1497[0m
+[2024-10-25T01:30:20.071] [ERROR] default - { name: undefined, message: undefined, stack: undefined }
+[2024-10-25T01:30:20.072] [INFO] default - [0mGET /api/pet [31m500[0m 1.408 ms - 1497[0m
+[2024-10-25T01:30:21.630] [INFO] default - [0mGET /api/pets [32m200[0m 8.994 ms - 9620[0m
+[2024-10-25T01:31:11.570] [INFO] default - [0mGET /api/adoptions [32m200[0m 15.289 ms - 23635[0m
+[2024-10-25T01:34:15.457] [INFO] default - [0mGET /api/pets [32m200[0m 5.243 ms - 9620[0m
+[2024-10-25T01:34:46.569] [INFO] default - Server running on port: 8080
+[2024-10-25T01:34:46.586] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:34:46.587] [INFO] default - Connected to MongoDB
+[2024-10-25T01:34:50.550] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 125.823 ms - 10491[0m
+[2024-10-25T01:34:50.601] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 30.372 ms - 4092[0m
+[2024-10-25T01:34:50.746] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 142.363 ms - 7655[0m
+[2024-10-25T01:34:50.783] [INFO] default - [0mPOST /api/users/create [31m500[0m 30.721 ms - 67[0m
+[2024-10-25T01:34:50.797] [INFO] default - [0mGET /api/users [32m200[0m 9.383 ms - 23477[0m
+[2024-10-25T01:34:50.805] [INFO] default - [0mGET /api/users/671b1fea421811c7e3e729c7 [32m200[0m 3.982 ms - 235[0m
+[2024-10-25T01:34:50.812] [INFO] default - [0mPOST /api/pets/create [32m201[0m 1.379 ms - 51[0m
+[2024-10-25T01:34:50.822] [INFO] default - [0mGET /api/pets [32m200[0m 7.176 ms - 15032[0m
+[2024-10-25T01:34:50.836] [INFO] default - [0mPOST /api/adoptions/create [32m201[0m 7.579 ms - 206[0m
+[2024-10-25T01:34:50.868] [INFO] default - [0mGET /api/adoptions [32m200[0m 28.091 ms - 48477[0m
+[2024-10-25T01:35:37.575] [INFO] default - [0mGET /api/users [32m200[0m 11.949 ms - 23504[0m
+[2024-10-25T01:35:44.412] [INFO] default - [0mGET /api/users/671b1e317b05d9efcd970e65 [32m200[0m 2.618 ms - 270[0m
+[2024-10-25T01:37:28.927] [INFO] default - Server running on port: 8080
+[2024-10-25T01:37:28.949] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:37:28.949] [INFO] default - Connected to MongoDB
+[2024-10-25T01:37:37.019] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 121.645 ms - 10348[0m
+[2024-10-25T01:37:37.077] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 44.232 ms - 4041[0m
+[2024-10-25T01:37:37.215] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 135.777 ms - 7655[0m
+[2024-10-25T01:37:37.236] [INFO] default - [0mPOST /api/users/create [31m500[0m 14.787 ms - 67[0m
+[2024-10-25T01:37:37.250] [INFO] default - [0mGET /api/users [32m200[0m 10.862 ms - 35127[0m
+[2024-10-25T01:37:37.258] [INFO] default - [0mGET /api/users/671b2090afaa2b62de192991 [32m200[0m 3.644 ms - 205[0m
+[2024-10-25T01:37:37.264] [INFO] default - [0mPOST /api/pets/create [32m201[0m 1.540 ms - 51[0m
+[2024-10-25T01:37:37.274] [INFO] default - [0mGET /api/pets [32m200[0m 8.426 ms - 20428[0m
+[2024-10-25T01:37:37.286] [INFO] default - [0mPOST /api/adoptions/create [32m201[0m 6.291 ms - 206[0m
+[2024-10-25T01:37:37.323] [INFO] default - [0mGET /api/adoptions [32m200[0m 34.023 ms - 73343[0m
+[2024-10-25T01:40:45.040] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 4.929 ms - 96[0m
+[2024-10-25T01:41:03.369] [INFO] default - [0mGET /api/pets [32m200[0m 14.827 ms - 20463[0m
+[2024-10-25T01:41:30.190] [INFO] default - [0mPOST /api/adoptions/create [32m201[0m 8.524 ms - 206[0m
+[2024-10-25T01:41:58.325] [INFO] default - Server running on port: 8080
+[2024-10-25T01:41:58.346] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:41:58.346] [INFO] default - Connected to MongoDB
+[2024-10-25T01:42:03.524] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 119.309 ms - 10434[0m
+[2024-10-25T01:42:03.568] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 29.768 ms - 4066[0m
+[2024-10-25T01:42:03.706] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 135.291 ms - 7655[0m
+[2024-10-25T01:42:03.727] [INFO] default - [0mPOST /api/users/create [31m500[0m 15.039 ms - 67[0m
+[2024-10-25T01:42:03.747] [INFO] default - [0mGET /api/users [32m200[0m 16.188 ms - 46895[0m
+[2024-10-25T01:42:03.754] [INFO] default - [0mGET /api/users/671b219b094b69a4ba8dcf77 [32m200[0m 3.420 ms - 215[0m
+[2024-10-25T01:42:03.758] [INFO] default - [0mPOST /api/pets/create [32m201[0m 1.155 ms - 51[0m
+[2024-10-25T01:42:03.769] [INFO] default - [0mGET /api/pets [32m200[0m 8.636 ms - 26024[0m
+[2024-10-25T01:42:03.779] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 4.216 ms - 105[0m
+[2024-10-25T01:42:03.818] [INFO] default - [0mGET /api/adoptions [32m200[0m 35.782 ms - 98884[0m
+[2024-10-25T01:43:43.122] [INFO] default - Server running on port: 8080
+[2024-10-25T01:43:43.143] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:43:43.143] [INFO] default - Connected to MongoDB
+[2024-10-25T01:43:48.412] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 123.265 ms - 10438[0m
+[2024-10-25T01:43:48.455] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 29.550 ms - 4085[0m
+[2024-10-25T01:43:48.594] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 136.447 ms - 7655[0m
+[2024-10-25T01:43:48.614] [INFO] default - [0mPOST /api/users/create [31m500[0m 14.616 ms - 67[0m
+[2024-10-25T01:43:48.636] [INFO] default - [0mGET /api/users [32m200[0m 17.200 ms - 58610[0m
+[2024-10-25T01:43:48.644] [INFO] default - [0mGET /api/users/671b22043186779f00a25528 [32m200[0m 3.541 ms - 232[0m
+[2024-10-25T01:43:48.649] [INFO] default - [0mPOST /api/pets/create [32m201[0m 1.325 ms - 51[0m
+[2024-10-25T01:43:48.662] [INFO] default - [0mGET /api/pets [32m200[0m 9.886 ms - 31499[0m
+[2024-10-25T01:43:48.672] [INFO] default - [0mPOST /api/adoptions/create [32m201[0m 6.394 ms - 206[0m
+[2024-10-25T01:43:48.725] [INFO] default - [0mGET /api/adoptions [32m200[0m 48.932 ms - 124114[0m
+[2024-10-25T01:44:46.913] [INFO] default - Server running on port: 8080
+[2024-10-25T01:44:46.925] [INFO] default - Connected to MongoDB successfully
+[2024-10-25T01:44:46.925] [INFO] default - Connected to MongoDB
+[2024-10-25T01:44:50.293] [INFO] default - [0mGET /api/mocks/mockingusers [32m200[0m 121.565 ms - 10383[0m
+[2024-10-25T01:44:50.335] [INFO] default - [0mGET /api/mocks/mockingpets [32m200[0m 28.942 ms - 4016[0m
+[2024-10-25T01:44:50.481] [INFO] default - [0mGET /api/mocks/mockingadoptions [32m200[0m 143.171 ms - 7655[0m
+[2024-10-25T01:44:50.508] [INFO] default - [0mPOST /api/users/create [31m500[0m 20.978 ms - 67[0m
+[2024-10-25T01:44:50.530] [INFO] default - [0mGET /api/users [32m200[0m 18.309 ms - 70290[0m
+[2024-10-25T01:44:50.537] [INFO] default - [0mGET /api/users/671b22421370d59f855726a5 [32m200[0m 2.862 ms - 212[0m
+[2024-10-25T01:44:50.541] [INFO] default - [0mPOST /api/pets/create [32m201[0m 0.981 ms - 51[0m
+[2024-10-25T01:44:50.554] [INFO] default - [0mGET /api/pets [32m200[0m 10.170 ms - 36975[0m
+[2024-10-25T01:44:50.563] [INFO] default - [0mPOST /api/adoptions/create [31m500[0m 4.513 ms - 105[0m
+[2024-10-25T01:44:50.613] [INFO] default - [0mGET /api/adoptions [32m200[0m 46.498 ms - 148092[0m

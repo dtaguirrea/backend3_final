@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "node --test dist/test/test.js",
     "build": "tsc",
     "start": "node ./dist/server.js",
     "dev": "ts-node src/server.ts"
@@ -13,14 +14,20 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
+    "@types/chai": "^5.0.0",
     "@types/dotenv": "^8.2.0",
     "@types/express": "^5.0.0",
     "@types/joi": "^17.2.3",
     "@types/log4js": "^2.3.5",
+    "@types/mocha": "^10.0.9",
     "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.9",
+    "@types/supertest": "^6.0.2",
     "@types/swagger-jsdoc": "^6.0.4",
     "@types/swagger-ui-express": "^4.1.6",
+    "chai": "^5.1.2",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
@@ -33,6 +40,7 @@
     "log4js": "^6.9.1",
     "mongoose": "^8.7.2",
     "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.7",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
